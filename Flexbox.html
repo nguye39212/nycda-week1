@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Flexbox Examples</title>
+	  <style type="text/css" media="screen">
+	  	body {
+	  		font-family: Arial;
+	  		background-color: #DDD;
+	  	}
+	  	header {
+	  		position: fixed;
+	  		padding: 1em;
+	  		width: 100%;
+	  		top: 0;
+	  		left: 0;
+	  		background-color: white;
+	  		border-bottom: 1px solid #666;
+
+	  		/* flexbox stuff */
+	  		display: flex;
+	  		align-items: center;
+
+	  	}
+
+	  	span.logo {
+	  		font-weight: bold;
+	  		font-size: 1.5em;
+	  	}
+
+	  	nav {
+	  		margin-left: auto;
+	  		margin-right: 2em;
+	  	}
+
+	  	nav li {
+	  		display: inline-block;
+	  		background-color: #CCC;
+	  		padding: .75em;
+	  		border-radius: 10px;
+	  	}
+
+	  	nav li a {
+	  		color: #444;
+	  		text-decoration: none;
+	  	}
+	  	main {
+	  		max-width: 650px;
+	  		margin: 2em auto;
+	  		background-color: #FFF;
+	  		padding: 1em;
+	  		margin-top: 6em;
+	  		border-radius: 10px;
+	  	}
+	  	.ice {
+	  		width: 150px;
+	  		height: 150px;
+	  		margin-right: .5em;
+	  		margin-bottom: .5em;
+	  		background-color: #CCC;
+	  		text-align: center;
+	  		display: flex;
+	  		justify-content: center;
+	  		align-items: center;
+	  	}
+	  	#ices {
+	  		display: flex;
+	  		flex-wrap: wrap;
+	  	}
+	  </style>
+	</head>
+	
+	<body>
+		<header>
+			<span class="logo">Ice Unlimited</span>
+			<nav>
+					<li><a href="/about" title="About">About</a></li>
+					<li><a href="/offices" title="Offices">Offices</a></li>
+					<li><a href="/contact" title="Contact">Contact</a></li>
+			</nav>
+		</header><!-- /header -->
+		<main>
+			<h1>Ices</h1>
+			<p>Check out our selection below</p>
+			<section id="ices">
+				<div class="ice">
+					Orange
+				</div>
+				<div class="ice">
+					Cherry
+				</div>
+				<div class="ice">
+					Lime
+				</div>
+				<div class="ice">
+					Tutti Frutti
+				</div>
+				<div class="ice">
+					Rainbow
+				</div>
+				<div class="ice">
+					Watermelon
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+body {
+	font-family: Arial;
+}
+
+p {
+	font-family: Courier;
+	text-decoration: none;
+}
+
+.highlight {
+	background-color: yellow;
+}
+
+article {
+	border: 1px solid #CCC;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+#article_1 {
+	border-top-width: 3px;
+	border-top-color: black;
+}
+
+#article_2 p:last-child {
+	color: red;
+}

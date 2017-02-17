@@ -1,0 +1,12 @@
+.image{
+		background-image: url("service dog.jpg");
+		background-size: cover;
+		width:250px;
+		height:250px;
+		float: left;
+		margin-left: .5em;
+		margin-bottom: .5em;
+		border: 1px solid #000;
+		transition-property: width, height;
+		transition-duration: 1s;
+		}
